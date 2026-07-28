@@ -1,99 +1,340 @@
-# Saas-templates
+# SaaS Templates
 
-A set of minimal, static HTML/CSS/JS starter templates for local small businesses and simple SaaS-style landing pages. The repo includes a complete, ready-to-use template (SupaTemplate) that you can drop into any static host, edit in-place, or use as a starting point for a more advanced project.
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
-This project is free to use and open — feel free to copy, adapt, and redistribute. By default this README declares the project available under the MIT License (see the LICENSE section below). Use at your own risk; no warranty is provided.
+A collection of modern, lightweight, and responsive **HTML, CSS, and JavaScript templates** for local businesses and simple SaaS landing pages.
+
+These templates are completely static, making them easy to customize, deploy, and extend into larger projects. Whether you're building a landing page for a restaurant, salon, startup, dealership, or service business, this repository provides a clean starting point.
 
 ---
 
-## What you get
+## ✨ Features
 
-- SupaTemplate/ — a complete static site template (HTML, CSS, JS, config.json, robots/sitemap). It targets small local businesses (restaurants, salons, shops, car dealerships, etc.).
-  - index.html — the page markup and content placeholders
-  - style.css — theme variables and styles (rebrand by changing CSS variables)
-  - script.js — client-side logic: loads config.json, renders menu/gallery/testimonials, booking flow (WhatsApp-first), lightbox, and simple form handling
-  - config.json — data-driven site configuration (business name, contact, menu/gallery data)
-  - robots.txt, sitemap.xml — SEO basics
+* 📱 Responsive design
+* ⚡ Pure HTML, CSS & JavaScript
+* 🎨 Easy to customize
+* 📄 SEO-ready
+* 📂 Data-driven configuration
+* 💬 WhatsApp booking flow
+* 🖼️ Dynamic gallery & testimonials
+* 🚀 Deploy anywhere (GitHub Pages, Netlify, Vercel, Render, etc.)
+* 🔓 MIT Licensed
 
-## Quick start — open the template locally
+---
 
-1. Clone the repository:
-
-   git clone https://github.com/owenndeule/Saas-templates.git
-
-2. Serve the files from the SupaTemplate folder. The simplest options:
-
-   - Open SupaTemplate/index.html directly in your browser (works for basic testing)
-
-   - Start a temporary local server from the repo root (recommended so fetch() calls for config.json work):
-
-     # Python 3 (from the repo root)
-     python3 -m http.server 8000
-
-     # or using Node (http-server)
-     npx http-server -c-1 . -p 8000
-
-   Then open http://localhost:8000/SupaTemplate/ in your browser.
-
-## How to customize
-
-The template is intentionally data-driven. Most changes happen in SupaTemplate/config.json and a few spots in the HTML/CSS.
-
-- Business details and content
-  - Edit SupaTemplate/config.json to change businessName, tagline, phoneNumber, email, address, gallery, menuData, testimonials, social links, heroImage, etc.
-  - script.js reads config.json at load-time and injects content into index.html.
-
-- Images
-  - Replace hero and gallery image URLs in config.json (or point them to local files inside the SupaTemplate directory).
-  - Replace any placeholder images or the logo in index.html if you prefer an inline asset.
-
-- Colors & fonts
-  - Edit the CSS variables in SupaTemplate/style.css (:root) to rebrand colors quickly — --primary-color and --accent-color are the main ones.
-  - Fonts are loaded via the Google Fonts link in index.html; swap them there if needed.
-
-- Forms and integrations
-  - The reservation and contact forms are client-side and currently trigger a WhatsApp flow or a simple alert. Integrate with your backend or a service like EmailJS/Formspree inside script.js (see comments near handleBookingSubmit and handleContactSubmit).
-
-- Behavior
-  - The hero CTA and many "Book" buttons will either open a booking modal or send users to WhatsApp depending on the businessType in config.json.
-  - To change that logic, edit the conditional lists near initializeBookingModal and applyConfig in script.js.
-
-## Notes for developers
-
-- The app is static (no build step required). JavaScript loads SupaTemplate/config.json with fetch; serving files over HTTP is recommended so CORS/fetch works reliably.
-- The templates are intentionally unopinionated — you can convert the static site into a Next.js/React/Vue app, or plug it into a backend for dynamic data.
-- Accessibility: basic landmarks and aria attributes are present, but please audit before production usage.
-
-## Contributing
-
-If you improve the template (bug fixes, new business types, extra templates), feel free to open a PR or copy the repo and share your version. Keep the notices if you redistribute derivatives.
-
-## License (permissive)
-
-This repository is provided under the MIT License — feel free to use, copy, modify, and redistribute this code in personal or commercial projects. No warranty is provided.
+# Repository Structure
 
 ```
-MIT License
-
-Copyright (c) 2026 OwennDeule
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Saas-templates/
+│
+├── README.md
+├── LICENSE
+│
+└── SupaTemplate/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    ├── config.json
+    ├── robots.txt
+    ├── sitemap.xml
+    └── assets/
 ```
 
-If you'd like, I can add a LICENSE file to the repository with the full MIT text and commit it for you.
+---
+
+# Included Template
+
+## SupaTemplate
+
+A complete, production-ready landing page template designed for:
+
+* Restaurants
+* Cafés
+* Salons
+* Barbershops
+* Car dealerships
+* Gyms
+* Local stores
+* Repair services
+* SaaS startups
+* Small businesses
+
+The template is powered by a simple `config.json` file, allowing non-developers to update content without touching the HTML.
+
+---
+
+# Quick Start
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/owenndeule/Saas-templates.git
+```
+
+```bash
+cd Saas-templates
+```
+
+---
+
+## 2. Run locally
+
+### Option 1 — Open directly
+
+Open:
+
+```
+SupaTemplate/index.html
+```
+
+in your browser.
+
+> **Note:** Some features (like loading `config.json`) require a local web server.
+
+---
+
+### Option 2 — Python
+
+```bash
+python3 -m http.server 8000
+```
+
+Open:
+
+```
+http://localhost:8000/SupaTemplate/
+```
+
+---
+
+### Option 3 — Node.js
+
+```bash
+npx http-server -c-1 . -p 8000
+```
+
+Then visit:
+
+```
+http://localhost:8000/SupaTemplate/
+```
+
+---
+
+# Customization
+
+## Business Information
+
+Edit:
+
+```
+SupaTemplate/config.json
+```
+
+You can change:
+
+* Business name
+* Tagline
+* Phone number
+* Email
+* Address
+* Opening hours
+* Hero image
+* Gallery
+* Testimonials
+* Menu
+* Social media links
+* Booking settings
+
+No HTML editing is required for most content changes.
+
+---
+
+## Branding
+
+Open:
+
+```
+style.css
+```
+
+Update the CSS variables inside `:root`.
+
+Example:
+
+```css
+:root {
+  --primary-color: #4f46e5;
+  --accent-color: #f97316;
+}
+```
+
+You can completely rebrand the template in just a few minutes.
+
+---
+
+## Images
+
+Replace image URLs inside:
+
+```
+config.json
+```
+
+or store images locally inside:
+
+```
+SupaTemplate/assets/
+```
+
+---
+
+## Fonts
+
+Google Fonts are loaded inside:
+
+```
+index.html
+```
+
+Replace them with any font you prefer.
+
+---
+
+## Forms
+
+The template currently uses:
+
+* WhatsApp booking
+* Simple contact form
+
+You can easily integrate services such as:
+
+* EmailJS
+* Formspree
+* Firebase
+* Supabase
+* Your own backend API
+
+The integration points are documented inside:
+
+```
+script.js
+```
+
+---
+
+# Developer Notes
+
+The project intentionally has:
+
+* No framework
+* No build tools
+* No dependencies
+* No package manager
+* No bundler
+
+Everything works with plain HTML, CSS, and JavaScript.
+
+Because `config.json` is loaded using `fetch()`, serving the project over HTTP is recommended instead of opening the files directly.
+
+---
+
+# Deployment
+
+This project can be deployed to any static hosting provider, including:
+
+* GitHub Pages
+* Netlify
+* Vercel
+* Cloudflare Pages
+* Render (Static Sites)
+* Firebase Hosting
+* Surge.sh
+
+No build process is required.
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+Ideas include:
+
+* New templates
+* Bug fixes
+* Performance improvements
+* Accessibility improvements
+* Additional business categories
+* Better animations
+* New components
+
+1. Fork the repository.
+2. Create a feature branch.
+
+```bash
+git checkout -b feature/new-template
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Add new restaurant template"
+```
+
+4. Push the branch.
+
+```bash
+git push origin feature/new-template
+```
+
+5. Open a Pull Request.
+
+---
+
+# Roadmap
+
+Future templates planned:
+
+* SaaS Dashboard
+* Agency Landing Page
+* Portfolio
+* Hotel Website
+* Medical Clinic
+* School Website
+* E-commerce Landing Page
+* Construction Company
+* Church Website
+* Event Landing Page
+
+---
+
+# License
+
+This project is licensed under the **MIT License**.
+
+You are free to:
+
+* Use
+* Modify
+* Distribute
+* Sell
+* Include in commercial projects
+
+Please include the original copyright notice when redistributing.
+
+See the **LICENSE** file for the full license text.
+
+---
+
+# Author
+
+**Owen Ndeule**
+
+* GitHub: https://github.com/owenndeule
+
+If you find this project useful, consider giving the repository a ⭐ to support future template development.
