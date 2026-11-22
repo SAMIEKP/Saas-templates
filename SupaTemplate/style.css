@@ -1058,7 +1058,16 @@ input, select, textarea {
 
 .footer-social a {
     color: #ccc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     transition: color 0.3s ease;
+}
+
+.footer-social a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 5px;
+    border-radius: 3px;
 }
 
 /* Testimonials Section */

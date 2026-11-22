@@ -249,6 +249,10 @@ function initializeBookingModal(config) { // Renamed from initializeBookingModal
     document.querySelectorAll('a, button').forEach(el => {
         const text = el.textContent.toLowerCase();
         const isBookLink = el.getAttribute('href') === '#reservations';
+
+        // WhatsApp CTAs should keep their chat destination, even when their
+        // visible label contains "Book".
+        if (el.classList.contains('whatsapp-cta')) return;
         
         if (text.includes('book') || isBookLink) {
             if (useModal) {
@@ -261,6 +265,15 @@ function initializeBookingModal(config) { // Renamed from initializeBookingModal
                 el.classList.add('whatsapp-cta');
             }
         }
+    });
+
+    // Some WhatsApp CTAs are inserted while applying text overrides, after
+    // the first link pass. Assign their destination after all markup exists.
+    const whatsappUrl = `https://wa.me/${String(config.whatsappNumber || '').replace(/\D/g, '')}`;
+    document.querySelectorAll('.whatsapp-cta').forEach(link => {
+        link.href = whatsappUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
     });
 
     if (bookingModalCloseBtn) bookingModalCloseBtn.addEventListener('click', () => closeBookingModal());
@@ -316,12 +329,17 @@ function renderFooter(config) {
     if (footerSocialLinksContainer && config.socialLinks) {
         footerSocialLinksContainer.innerHTML = ''; // Clear existing
         for (const platform in config.socialLinks) {
-            if (config.socialLinks[platform]) {
+            const profileUrl = config.socialLinks[platform]?.trim();
+            if (profileUrl) {
                 const link = document.createElement('a');
-                link.href = config.socialLinks[platform];
+                link.href = /^https?:\/\//i.test(profileUrl)
+                    ? profileUrl
+                    : `https://${profileUrl.replace(/^\/+/, '')}`;
                 link.target = '_blank';
                 link.rel = 'noopener noreferrer';
-                link.setAttribute('aria-label', `${platform.charAt(0).toUpperCase() + platform.slice(1)}`);
+                const platformName = platform.charAt(0).toUpperCase() + platform.slice(1);
+                link.setAttribute('aria-label', platformName);
+                link.title = `Visit our ${platformName} page`;
                 link.innerHTML = `<svg class="social-icon" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">${getSocialIconSvg(platform)}</svg>`;
                 footerSocialLinksContainer.appendChild(link);
             }
