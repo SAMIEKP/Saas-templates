@@ -1,0 +1,240 @@
+{
+    "businessName": "Iron Forge Fitness",
+    "businessType": "fitness",
+    "tagline": "Forge Your Strongest Self",
+    "primaryColor": "#E85D04",
+    "whatsappNumber": "15557418529",
+    "currencySymbol": "$",
+    "analyticsId": "G-XXXXXXXXXX",
+    "testimonials": [
+        {
+            "name": "Chris M.",
+            "comment": "Best gym I've been to. Great equipment, knowledgeable trainers, awesome community.",
+            "stars": 5
+        },
+        {
+            "name": "Taylor R.",
+            "comment": "The group classes keep me motivated. Lost 20 lbs in 3 months!",
+            "stars": 5
+        },
+        {
+            "name": "Jordan K.",
+            "comment": "Personal training worth every penny. Form correction changed everything.",
+            "stars": 5
+        }
+    ],
+    "openingHours": {
+        "Monday": "5:00 AM - 11:00 PM",
+        "Tuesday": "5:00 AM - 11:00 PM",
+        "Wednesday": "5:00 AM - 11:00 PM",
+        "Thursday": "5:00 AM - 11:00 PM",
+        "Friday": "5:00 AM - 10:00 PM",
+        "Saturday": "7:00 AM - 8:00 PM",
+        "Sunday": "8:00 AM - 7:00 PM"
+    },
+    "phoneNumber": "+1 (555) 741-8529",
+    "email": "join@ironforgedfitness.com",
+    "seoDescription": "Iron Forge Fitness - Full-service gym with personal training, group classes, and 24/7 access. Build strength, lose weight, transform your life.",
+    "ogTitle": "Iron Forge Fitness - Gym & Personal Training",
+    "ogDescription": "Your fitness journey starts here. Expert trainers, group classes, top equipment. Free trial available!",
+    "ogImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1200",
+    "favicon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "appleTouchIcon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "footerAboutText": "Iron Forge Fitness has been helping people transform since 2015. No contracts, no judgment, just results. Your goals are our mission.",
+    "socialLinks": {
+        "facebook": "https://facebook.com/ironforgedfitness",
+        "instagram": "https://instagram.com/ironforgedfitness",
+        "x": "https://x.com/ironforgedfit",
+        "linkedin": "",
+        "youtube": "",
+        "tiktok": "",
+        "github": "",
+        "whatsapp": "",
+        "pinterest": "",
+        "snapchat": "",
+        "threads": ""
+    },
+    "address": "555 Strength Street, Fitness District, CO 80202",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123!2d-73.987!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890",
+    "heroImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1920",
+    "gallery": [
+        {
+            "name": "Weight Floor",
+            "description": "Olympic platforms, racks, and dumbbells to 150lb",
+            "images": [
+                "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Cardio Theater",
+            "description": "TV-equipped treadmills, bikes, rowers, and stairs",
+            "images": [
+                "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Group Studio",
+            "description": "HIIT, yoga, spin, and strength classes daily",
+            "images": [
+                "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Recovery Zone",
+            "description": "Sauna, cold plunge, massage guns, stretching area",
+            "images": [
+                "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
+            ]
+        }
+    ],
+    "textOverrides": {
+        "fitness": {
+            "heroCtaButtonText": "Start Free Trial",
+            "menuSectionTitle": "Membership Options",
+            "menuSectionSubtitle": "No contracts. Cancel anytime.",
+            "bookingTitle": "Book Free Session",
+            "bookingCtaButtonText": "Claim Free Trial",
+            "contactBlockTitle": "Corporate & Team Plans",
+            "contactBlockDescription": "Group rates for companies, sports teams, and organizations.",
+            "whatsappBookingMessage": "a free trial",
+            "hoursNote": "Staffed hours: Mon-Fri 8am-8pm, Sat-Sun 9am-5pm",
+            "keywords": "gym, fitness, personal training, group classes, workout, strength training, cardio, health"
+        },
+        "other": {
+            "heroCtaButtonText": "Learn More",
+            "menuSectionTitle": "Our Offerings",
+            "menuSectionSubtitle": "Discover what makes us unique.",
+            "bookingTitle": "Get in Touch",
+            "bookingCtaButtonText": "Contact Us",
+            "contactBlockTitle": "General Inquiries",
+            "contactBlockDescription": "Have questions? We're here to help.",
+            "whatsappBookingMessage": "an inquiry",
+            "hoursNote": "",
+            "keywords": "business, services, professional, information"
+        }
+    },
+    "menuData": {
+        "Memberships": [
+            {
+                "id": 1,
+                "name": "Basic Access",
+                "description": "Gym floor access during staffed hours",
+                "price": "29",
+                "images": [
+                    "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Popular"
+            },
+            {
+                "id": 2,
+                "name": "All Access",
+                "description": "24/7 access + all group classes included",
+                "price": "49",
+                "images": [
+                    "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Best Value"
+            },
+            {
+                "id": 3,
+                "name": "Premium + Training",
+                "description": "All Access + 2 personal training sessions/month",
+                "price": "149",
+                "images": [
+                    "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Personal Training": [
+            {
+                "id": 4,
+                "name": "Single Session (60 min)",
+                "description": "One-on-one customized workout",
+                "price": "75",
+                "images": [
+                    "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 5,
+                "name": "5-Session Package",
+                "description": "Save $25 with 5 sessions",
+                "price": "350",
+                "images": [
+                    "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Save $25"
+            },
+            {
+                "id": 6,
+                "name": "10-Session Package",
+                "description": "Save $100 with 10 sessions",
+                "price": "650",
+                "images": [
+                    "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Best Deal"
+            }
+        ],
+        "Group Classes": [
+            {
+                "id": 7,
+                "name": "HIIT Circuit",
+                "description": "High-intensity intervals for max calorie burn",
+                "price": "Included",
+                "images": [
+                    "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Spin / Indoor Cycling",
+                "description": "Music-driven rides for all levels",
+                "price": "Included",
+                "images": [
+                    "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Yoga Flow",
+                "description": "Vinyasa for strength and mobility",
+                "price": "Included",
+                "images": [
+                    "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Strength & Conditioning",
+                "description": "Barbell-focused progressive overload",
+                "price": "Included",
+                "images": [
+                    "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Specialty Programs": [
+            {
+                "id": 11,
+                "name": "6-Week Transformation",
+                "description": "Training + nutrition + accountability coaching",
+                "price": "399",
+                "images": [
+                    "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Complete"
+            },
+            {
+                "id": 12,
+                "name": "Youth Athletic Development",
+                "description": "Age-appropriate strength training for ages 12-17",
+                "price": "199",
+                "images": [
+                    "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Monthly"
+            }
+        ]
+    }
+}

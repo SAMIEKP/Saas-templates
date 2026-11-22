@@ -1,0 +1,220 @@
+{
+    "businessName": "Luigi's Kitchen",
+    "businessType": "restaurant",
+    "tagline": "Authentic Italian Farm-to-Table Dining",
+    "primaryColor": "#8B1538",
+    "whatsappNumber": "15551234567",
+    "currencySymbol": "$",
+    "analyticsId": "G-XXXXXXXXXX",
+    "testimonials": [
+        {
+            "name": "Sarah J.",
+            "comment": "The best Italian food I've had outside of Rome. Highly recommend the pasta!",
+            "stars": 5
+        },
+        {
+            "name": "Mark T.",
+            "comment": "Great atmosphere and friendly staff. The farm-to-table freshness really shows.",
+            "stars": 5
+        },
+        {
+            "name": "Emily R.",
+            "comment": "Perfect for date night. The wine selection is incredible.",
+            "stars": 5
+        }
+    ],
+    "openingHours": {
+        "Monday": "12:00 PM - 10:00 PM",
+        "Tuesday": "12:00 PM - 10:00 PM",
+        "Wednesday": "12:00 PM - 10:00 PM",
+        "Thursday": "12:00 PM - 10:00 PM",
+        "Friday": "12:00 PM - 11:00 PM",
+        "Saturday": "11:00 AM - 11:00 PM",
+        "Sunday": "11:00 AM - 10:00 PM"
+    },
+    "phoneNumber": "+1 (555) 123-4567",
+    "email": "hello@luigiskitchen.com",
+    "seoDescription": "Experience authentic Italian farm-to-table dining at Luigi's Kitchen. Fresh ingredients, traditional recipes, and a cozy atmosphere.",
+    "ogTitle": "Luigi's Kitchen - Authentic Italian Dining",
+    "ogDescription": "Join us for the best pasta and desserts in town. Book your table online!",
+    "ogImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1200",
+    "favicon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "appleTouchIcon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "footerAboutText": "Luigi's Kitchen has been serving authentic Italian cuisine since 1998. We source ingredients locally and make everything fresh daily.",
+    "socialLinks": {
+        "facebook": "https://facebook.com/luigiskitchen",
+        "instagram": "https://instagram.com/luigiskitchen",
+        "x": "https://x.com/luigiskitchen",
+        "linkedin": "",
+        "youtube": "",
+        "tiktok": "",
+        "github": "",
+        "whatsapp": "",
+        "pinterest": "",
+        "snapchat": "",
+        "threads": ""
+    },
+    "address": "123 Culinary Ave, Food District, NY 10001",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123!2d-73.987!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890",
+    "heroImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1920",
+    "gallery": [
+        {
+            "name": "Dining Room",
+            "description": "Cozy interior with warm lighting",
+            "images": [
+                "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Fresh Pasta",
+            "description": "Handmade pasta prepared daily",
+            "images": [
+                "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Wine Cellar",
+            "description": "Curated selection of Italian wines",
+            "images": [
+                "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Outdoor Patio",
+            "description": "Al fresco dining in summer",
+            "images": [
+                "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800"
+            ]
+        }
+    ],
+    "textOverrides": {
+        "restaurant": {
+            "heroCtaButtonText": "Book a Table",
+            "menuSectionTitle": "Our Menu",
+            "menuSectionSubtitle": "Authentic quality in every detail.",
+            "bookingTitle": "Reserve a Table",
+            "bookingCtaButtonText": "Send Booking Request",
+            "contactBlockTitle": "Events & Private Dining",
+            "contactBlockDescription": "Looking to host an event? We offer custom menus for private parties.",
+            "whatsappBookingMessage": "a table",
+            "hoursNote": "Last seating 30 minutes before closing",
+            "keywords": "restaurant, italian, fine dining, pasta, wine, farm to table"
+        },
+        "other": {
+            "heroCtaButtonText": "Learn More",
+            "menuSectionTitle": "Our Offerings",
+            "menuSectionSubtitle": "Discover what makes us unique.",
+            "bookingTitle": "Get in Touch",
+            "bookingCtaButtonText": "Contact Us",
+            "contactBlockTitle": "General Inquiries",
+            "contactBlockDescription": "Have questions? We're here to help.",
+            "whatsappBookingMessage": "an inquiry",
+            "hoursNote": "",
+            "keywords": "business, services, professional, information"
+        }
+    },
+    "menuData": {
+        "Starters": [
+            {
+                "id": 1,
+                "name": "Bruschetta Classica",
+                "description": "Grilled bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil",
+                "price": "12",
+                "images": [
+                    "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Burrata Caprese",
+                "description": "Creamy burrata with vine-ripened tomatoes, basil pesto, and aged balsamic",
+                "price": "16",
+                "images": [
+                    "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Popular"
+            },
+            {
+                "id": 3,
+                "name": "Calamari Fritti",
+                "description": "Crispy fried calamari with marinara sauce and lemon aioli",
+                "price": "15",
+                "images": [
+                    "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Pasta": [
+            {
+                "id": 4,
+                "name": "Spaghetti Carbonara",
+                "description": "Classic Roman recipe with guanciale, egg, Pecorino Romano, and black pepper",
+                "price": "22",
+                "images": [
+                    "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Signature"
+            },
+            {
+                "id": 5,
+                "name": "Tagliatelle Bolognese",
+                "description": "Slow-cooked beef and pork rag\u00f9 with fresh tagliatelle and Parmigiano",
+                "price": "24",
+                "images": [
+                    "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Lobster Ravioli",
+                "description": "Handmade ravioli filled with Maine lobster in saffron cream sauce",
+                "price": "32",
+                "images": [
+                    "https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Chef's Special"
+            }
+        ],
+        "Mains": [
+            {
+                "id": 7,
+                "name": "Osso Buco",
+                "description": "Braised veal shanks with gremolata, served with saffron risotto",
+                "price": "38",
+                "images": [
+                    "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Branzino al Forno",
+                "description": "Whole roasted Mediterranean sea bass with herbs, olives, and cherry tomatoes",
+                "price": "36",
+                "images": [
+                    "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Desserts": [
+            {
+                "id": 9,
+                "name": "Tiramisu",
+                "description": "Classic layered dessert with espresso-soaked ladyfingers and mascarpone",
+                "price": "10",
+                "images": [
+                    "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Panna Cotta",
+                "description": "Vanilla bean panna cotta with mixed berry compote",
+                "price": "9",
+                "images": [
+                    "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ]
+    }
+}

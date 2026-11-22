@@ -1,0 +1,230 @@
+{
+    "businessName": "Serenity Wellness Spa",
+    "businessType": "spa",
+    "tagline": "Relax. Renew. Restore.",
+    "primaryColor": "#2D6A4F",
+    "whatsappNumber": "15553691472",
+    "currencySymbol": "$",
+    "analyticsId": "G-XXXXXXXXXX",
+    "testimonials": [
+        {
+            "name": "Rebecca T.",
+            "comment": "The most relaxing experience. The hot stone massage melted all my stress away.",
+            "stars": 5
+        },
+        {
+            "name": "Michael D.",
+            "comment": "Professional therapists, beautiful facility. My monthly self-care essential.",
+            "stars": 5
+        },
+        {
+            "name": "Priya N.",
+            "comment": "The couples package was perfect for our anniversary. Highly recommend!",
+            "stars": 5
+        }
+    ],
+    "openingHours": {
+        "Monday": "10:00 AM - 8:00 PM",
+        "Tuesday": "10:00 AM - 8:00 PM",
+        "Wednesday": "10:00 AM - 8:00 PM",
+        "Thursday": "10:00 AM - 8:00 PM",
+        "Friday": "10:00 AM - 9:00 PM",
+        "Saturday": "9:00 AM - 7:00 PM",
+        "Sunday": "10:00 AM - 6:00 PM"
+    },
+    "phoneNumber": "+1 (555) 369-1472",
+    "email": "info@serenitywellnessspa.com",
+    "seoDescription": "Serenity Wellness Spa - Massage therapy, facials, body treatments, and wellness packages. Escape the everyday in our tranquil sanctuary.",
+    "ogTitle": "Serenity Wellness Spa - Massage & Wellness",
+    "ogDescription": "Experience true relaxation. Massage, facials, body treatments, and couples packages. Book your escape today.",
+    "ogImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=1200",
+    "favicon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "appleTouchIcon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "footerAboutText": "Serenity Wellness Spa is dedicated to your holistic wellbeing. Our licensed therapists customize every treatment to your unique needs.",
+    "socialLinks": {
+        "facebook": "https://facebook.com/serenitywellnessspa",
+        "instagram": "https://instagram.com/serenitywellnessspa",
+        "x": "https://x.com/serenityspa",
+        "linkedin": "",
+        "youtube": "",
+        "tiktok": "",
+        "github": "",
+        "whatsapp": "",
+        "pinterest": "",
+        "snapchat": "",
+        "threads": ""
+    },
+    "address": "321 Tranquility Way, Wellness Park, WA 98101",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123!2d-73.987!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890",
+    "heroImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=1920",
+    "gallery": [
+        {
+            "name": "Treatment Rooms",
+            "description": "Peaceful private suites with heated tables",
+            "images": [
+                "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Relaxation Lounge",
+            "description": "Quiet space with herbal tea and heated loungers",
+            "images": [
+                "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Hydrotherapy",
+            "description": "Vichy shower and hydrotherapy tub",
+            "images": [
+                "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Couples Suite",
+            "description": "Side-by-side treatment for two",
+            "images": [
+                "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800"
+            ]
+        }
+    ],
+    "textOverrides": {
+        "spa": {
+            "heroCtaButtonText": "Book Treatment",
+            "menuSectionTitle": "Our Treatments",
+            "menuSectionSubtitle": "Personalized wellness for body and mind.",
+            "bookingTitle": "Reserve Your Session",
+            "bookingCtaButtonText": "Schedule Now",
+            "contactBlockTitle": "Spa Packages & Memberships",
+            "contactBlockDescription": "Ask about our monthly wellness membership and custom spa packages.",
+            "whatsappBookingMessage": "a treatment",
+            "hoursNote": "Arrive 15 minutes early for relaxation time",
+            "keywords": "spa, massage, facial, wellness, relaxation, therapy, couples massage, self care"
+        },
+        "other": {
+            "heroCtaButtonText": "Learn More",
+            "menuSectionTitle": "Our Offerings",
+            "menuSectionSubtitle": "Discover what makes us unique.",
+            "bookingTitle": "Get in Touch",
+            "bookingCtaButtonText": "Contact Us",
+            "contactBlockTitle": "General Inquiries",
+            "contactBlockDescription": "Have questions? We're here to help.",
+            "whatsappBookingMessage": "an inquiry",
+            "hoursNote": "",
+            "keywords": "business, services, professional, information"
+        }
+    },
+    "menuData": {
+        "Massage Therapy": [
+            {
+                "id": 1,
+                "name": "Swedish Massage (60 min)",
+                "description": "Classic relaxation massage with long, flowing strokes",
+                "price": "110",
+                "images": [
+                    "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Deep Tissue Massage (60 min)",
+                "description": "Targeted pressure for chronic tension and muscle knots",
+                "price": "130",
+                "images": [
+                    "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Popular"
+            },
+            {
+                "id": 3,
+                "name": "Hot Stone Massage (75 min)",
+                "description": "Heated basalt stones melt away deep tension",
+                "price": "155",
+                "images": [
+                    "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Couples Massage (60 min)",
+                "description": "Side-by-side relaxation in our couples suite",
+                "price": "240",
+                "images": [
+                    "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "For Two"
+            }
+        ],
+        "Facials": [
+            {
+                "id": 5,
+                "name": "Signature Facial (60 min)",
+                "description": "Customized cleanse, exfoliate, mask, and hydration",
+                "price": "125",
+                "images": [
+                    "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Anti-Aging Facial (75 min)",
+                "description": "Peptides, antioxidants, and LED light therapy",
+                "price": "165",
+                "images": [
+                    "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Advanced"
+            },
+            {
+                "id": 7,
+                "name": "Gentlemen's Facial (60 min)",
+                "description": "Deep cleanse tailored for men's skin",
+                "price": "115",
+                "images": [
+                    "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Body Treatments": [
+            {
+                "id": 8,
+                "name": "Body Polish (45 min)",
+                "description": "Exfoliating scrub with nourishing oils",
+                "price": "95",
+                "images": [
+                    "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Detox Body Wrap (60 min)",
+                "description": "Marine clay wrap with infrared blanket",
+                "price": "135",
+                "images": [
+                    "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Wellness Packages": [
+            {
+                "id": 10,
+                "name": "Half-Day Retreat (3 hrs)",
+                "description": "Massage, facial, body polish, and lunch",
+                "price": "320",
+                "images": [
+                    "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Best Value"
+            },
+            {
+                "id": 11,
+                "name": "Couples Escape (2.5 hrs)",
+                "description": "Side-by-side massage, facial access, champagne",
+                "price": "480",
+                "images": [
+                    "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Romantic"
+            }
+        ]
+    }
+}
