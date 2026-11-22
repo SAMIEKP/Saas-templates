@@ -1,0 +1,219 @@
+{
+    "businessName": "Summit Real Estate",
+    "businessType": "real-estate",
+    "tagline": "Your Home Journey Starts Here",
+    "primaryColor": "#0D2B5A",
+    "whatsappNumber": "15558529637",
+    "currencySymbol": "$",
+    "analyticsId": "G-XXXXXXXXXX",
+    "testimonials": [
+        {
+            "name": "The Chen Family",
+            "comment": "Our agent found us the perfect home in our price range. Made the process seamless.",
+            "stars": 5
+        },
+        {
+            "name": "Robert K.",
+            "comment": "Sold our house in 2 weeks for over asking. Marketing was incredible.",
+            "stars": 5
+        },
+        {
+            "name": "Aisha M.",
+            "comment": "First-time buyer here. They educated me every step of the way. So patient!",
+            "stars": 5
+        }
+    ],
+    "openingHours": {
+        "Monday": "9:00 AM - 6:00 PM",
+        "Tuesday": "9:00 AM - 6:00 PM",
+        "Wednesday": "9:00 AM - 6:00 PM",
+        "Thursday": "9:00 AM - 6:00 PM",
+        "Friday": "9:00 AM - 5:00 PM",
+        "Saturday": "10:00 AM - 4:00 PM",
+        "Sunday": "By Appointment"
+    },
+    "phoneNumber": "+1 (555) 852-9637",
+    "email": "hello@summitrealestate.com",
+    "seoDescription": "Summit Real Estate - Expert residential and commercial real estate services. Buying, selling, and investing. Local market experts with proven results.",
+    "ogTitle": "Summit Real Estate - Buy, Sell, Invest",
+    "ogDescription": "Trusted local experts for all your real estate needs. Browse listings or get a free home valuation.",
+    "ogImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1200",
+    "favicon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "appleTouchIcon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "footerAboutText": "Summit Real Estate has served the community since 2005. Our agents combine local expertise with cutting-edge technology to deliver exceptional results.",
+    "socialLinks": {
+        "facebook": "https://facebook.com/summitrealestate",
+        "instagram": "https://instagram.com/summitrealestate",
+        "x": "https://x.com/summitre",
+        "linkedin": "https://linkedin.com/company/summitrealestate",
+        "youtube": "",
+        "tiktok": "https://tiktok.com/@summitrealestate",
+        "github": "",
+        "whatsapp": "",
+        "pinterest": "",
+        "snapchat": "",
+        "threads": ""
+    },
+    "address": "100 Summit Plaza, Downtown, IL 60601",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123!2d-73.987!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890",
+    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1920",
+    "gallery": [
+        {
+            "name": "Office",
+            "description": "Modern office with private consultation rooms",
+            "images": [
+                "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Featured Listing",
+            "description": "Luxury waterfront property",
+            "images": [
+                "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Open House",
+            "description": "Professional staging and marketing",
+            "images": [
+                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Team",
+            "description": "Experienced agents ready to help",
+            "images": [
+                "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=800"
+            ]
+        }
+    ],
+    "textOverrides": {
+        "real-estate": {
+            "heroCtaButtonText": "View Listings",
+            "menuSectionTitle": "Featured Properties",
+            "menuSectionSubtitle": "Handpicked homes in your area.",
+            "bookingTitle": "Schedule a Showing",
+            "bookingCtaButtonText": "Book Tour",
+            "contactBlockTitle": "Free Home Valuation",
+            "contactBlockDescription": "Thinking of selling? Get a comprehensive market analysis at no cost.",
+            "whatsappBookingMessage": "a showing",
+            "hoursNote": "Agents available by appointment outside office hours",
+            "keywords": "real estate, homes for sale, buy house, sell house, realtor, property listings, home valuation"
+        },
+        "other": {
+            "heroCtaButtonText": "Learn More",
+            "menuSectionTitle": "Our Offerings",
+            "menuSectionSubtitle": "Discover what makes us unique.",
+            "bookingTitle": "Get in Touch",
+            "bookingCtaButtonText": "Contact Us",
+            "contactBlockTitle": "General Inquiries",
+            "contactBlockDescription": "Have questions? We're here to help.",
+            "whatsappBookingMessage": "an inquiry",
+            "hoursNote": "",
+            "keywords": "business, services, professional, information"
+        }
+    },
+    "menuData": {
+        "Homes for Sale": [
+            {
+                "id": 1,
+                "name": "Modern Farmhouse",
+                "description": "4 bed, 3 bath, 2,800 sq ft on 0.5 acre. Open concept, chef's kitchen, backyard oasis.",
+                "price": "675,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "New Listing"
+            },
+            {
+                "id": 2,
+                "name": "Downtown Loft",
+                "description": "2 bed, 2 bath, 1,650 sq ft. Exposed brick, floor-to-ceiling windows, rooftop access.",
+                "price": "485,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Family Colonial",
+                "description": "5 bed, 3.5 bath, 3,400 sq ft. Top-rated schools, cul-de-sac, finished basement.",
+                "price": "890,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Price Reduced"
+            }
+        ],
+        "Condos & Townhomes": [
+            {
+                "id": 4,
+                "name": "Luxury High-Rise",
+                "description": "2 bed, 2 bath, 1,400 sq ft. Concierge, pool, gym, city views.",
+                "price": "520,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Modern Townhome",
+                "description": "3 bed, 2.5 bath, 2,100 sq ft. Attached garage, patio, walk to transit.",
+                "price": "445,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Investment Properties": [
+            {
+                "id": 6,
+                "name": "4-Unit Multifamily",
+                "description": "Fully rented, $4,200/mo income. Updated kitchens, separate utilities.",
+                "price": "680,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Cash Flow"
+            },
+            {
+                "id": 7,
+                "name": "Commercial Retail Space",
+                "description": "2,500 sq ft prime location. High foot traffic, triple net lease.",
+                "price": "18/sq ft/yr",
+                "images": [
+                    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Services": [
+            {
+                "id": 8,
+                "name": "Buyer Representation",
+                "description": "Full-service guidance from search to closing",
+                "price": "Free",
+                "images": [
+                    "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Seller Representation",
+                "description": "Professional marketing, staging, negotiation",
+                "price": "5%",
+                "images": [
+                    "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Property Management",
+                "description": "Tenant screening, maintenance, rent collection",
+                "price": "8%",
+                "images": [
+                    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "businessName": "Prestige Auto Group",
+    "businessType": "car-dealership",
+    "tagline": "Drive Your Dream Car Today",
+    "primaryColor": "#1E3A8A",
+    "whatsappNumber": "15559876543",
+    "currencySymbol": "$",
+    "analyticsId": "G-XXXXXXXXXX",
+    "testimonials": [
+        {
+            "name": "David M.",
+            "comment": "Best car buying experience ever. No pressure, great financing options.",
+            "stars": 5
+        },
+        {
+            "name": "Lisa K.",
+            "comment": "Found my perfect SUV. The team was knowledgeable and patient.",
+            "stars": 5
+        },
+        {
+            "name": "James R.",
+            "comment": "Trade-in value was fair. Drove off in my new car same day.",
+            "stars": 5
+        }
+    ],
+    "openingHours": {
+        "Monday": "9:00 AM - 8:00 PM",
+        "Tuesday": "9:00 AM - 8:00 PM",
+        "Wednesday": "9:00 AM - 8:00 PM",
+        "Thursday": "9:00 AM - 8:00 PM",
+        "Friday": "9:00 AM - 8:00 PM",
+        "Saturday": "9:00 AM - 6:00 PM",
+        "Sunday": "11:00 AM - 5:00 PM"
+    },
+    "phoneNumber": "+1 (555) 987-6543",
+    "email": "sales@prestigeauto.com",
+    "seoDescription": "Prestige Auto Group - New and certified pre-owned vehicles. Competitive financing, expert service, and a no-pressure buying experience.",
+    "ogTitle": "Prestige Auto Group - New & Used Cars",
+    "ogDescription": "Find your perfect vehicle at Prestige Auto Group. Browse our inventory and schedule a test drive today!",
+    "ogImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1200",
+    "favicon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "appleTouchIcon": "https://cdn-icons-png.flaticon.com/512/2973/2973505.png",
+    "footerAboutText": "Prestige Auto Group has been serving the community for over 25 years. We offer a wide selection of new and certified pre-owned vehicles with transparent pricing.",
+    "socialLinks": {
+        "facebook": "https://facebook.com/prestigeauto",
+        "instagram": "https://instagram.com/prestigeauto",
+        "x": "https://x.com/prestigeauto",
+        "linkedin": "https://linkedin.com/company/prestigeauto",
+        "youtube": "",
+        "tiktok": "",
+        "github": "",
+        "whatsapp": "",
+        "pinterest": "",
+        "snapchat": "",
+        "threads": ""
+    },
+    "address": "456 Highway Blvd, Auto Mile, CA 90210",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123!2d-73.987!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890",
+    "heroImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1920",
+    "gallery": [
+        {
+            "name": "Showroom",
+            "description": "Spacious showroom with latest models",
+            "images": [
+                "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Service Center",
+            "description": "State-of-the-art service facility",
+            "images": [
+                "https://images.unsplash.com/photo-1485236715568-ddc5ee6ca22c?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Inventory Lot",
+            "description": "Hundreds of vehicles to choose from",
+            "images": [
+                "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800"
+            ]
+        },
+        {
+            "name": "Customer Lounge",
+            "description": "Comfortable waiting area with refreshments",
+            "images": [
+                "https://images.unsplash.com/photo-1556013076-05d81d7c630a?auto=format&fit=crop&q=80&w=800"
+            ]
+        }
+    ],
+    "textOverrides": {
+        "car-dealership": {
+            "heroCtaButtonText": "Browse Inventory",
+            "menuSectionTitle": "Featured Vehicles",
+            "menuSectionSubtitle": "Quality vehicles at competitive prices.",
+            "bookingTitle": "Schedule a Test Drive",
+            "bookingCtaButtonText": "Book Test Drive",
+            "contactBlockTitle": "Financing & Trade-In",
+            "contactBlockDescription": "Get pre-approved for financing or value your trade-in online.",
+            "whatsappBookingMessage": "a test drive",
+            "hoursNote": "Service center closes 1 hour earlier",
+            "keywords": "car dealership, new cars, used cars, financing, test drive, auto sales"
+        },
+        "other": {
+            "heroCtaButtonText": "Learn More",
+            "menuSectionTitle": "Our Offerings",
+            "menuSectionSubtitle": "Discover what makes us unique.",
+            "bookingTitle": "Get in Touch",
+            "bookingCtaButtonText": "Contact Us",
+            "contactBlockTitle": "General Inquiries",
+            "contactBlockDescription": "Have questions? We're here to help.",
+            "whatsappBookingMessage": "an inquiry",
+            "hoursNote": "",
+            "keywords": "business, services, professional, information"
+        }
+    },
+    "menuData": {
+        "Sedans": [
+            {
+                "id": 1,
+                "name": "2024 Honda Accord",
+                "description": "Sporty midsize sedan with advanced safety features and excellent fuel economy",
+                "price": "28,990",
+                "images": [
+                    "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Best Seller"
+            },
+            {
+                "id": 2,
+                "name": "2024 Toyota Camry",
+                "description": "Reliable and comfortable with hybrid option available",
+                "price": "27,500",
+                "images": [
+                    "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 3,
+                "name": "2024 BMW 3 Series",
+                "description": "Luxury sports sedan with dynamic handling and premium interior",
+                "price": "44,500",
+                "images": [
+                    "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Premium"
+            }
+        ],
+        "SUVs": [
+            {
+                "id": 4,
+                "name": "2024 Honda CR-V",
+                "description": "Compact SUV with spacious interior and great reliability",
+                "price": "31,500",
+                "images": [
+                    "https://images.unsplash.com/photo-1520034444047-85339955483d?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 5,
+                "name": "2024 Toyota RAV4",
+                "description": "Popular compact SUV available in hybrid and plug-in hybrid",
+                "price": "30,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Top Pick"
+            },
+            {
+                "id": 6,
+                "name": "2024 Ford Explorer",
+                "description": "Three-row SUV with powerful engine options and towing capacity",
+                "price": "38,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Trucks": [
+            {
+                "id": 7,
+                "name": "2024 Ford F-150",
+                "description": "America's best-selling truck with multiple engine choices",
+                "price": "35,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=800"
+                ]
+            },
+            {
+                "id": 8,
+                "name": "2024 Chevrolet Silverado",
+                "description": "Full-size pickup with strong towing and payload ratings",
+                "price": "36,500",
+                "images": [
+                    "https://images.unsplash.com/photo-1520034444047-85339955483d?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ],
+        "Electric": [
+            {
+                "id": 9,
+                "name": "2024 Tesla Model 3",
+                "description": "All-electric sedan with industry-leading range and tech",
+                "price": "42,000",
+                "images": [
+                    "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=800"
+                ],
+                "badge": "Electric"
+            },
+            {
+                "id": 10,
+                "name": "2024 Ford Mustang Mach-E",
+                "description": "Electric SUV with muscle car DNA and modern features",
+                "price": "43,500",
+                "images": [
+                    "https://images.unsplash.com/photo-1536700503339-1e4b06520771?auto=format&fit=crop&q=80&w=800"
+                ]
+            }
+        ]
+    }
+}
